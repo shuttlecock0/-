@@ -55,4 +55,7 @@
   - 특정한 빈들로만 연결되는 프로젝트 구성
     - service - repository - TestImpl -- test환경에서만
     									- OperImpl -- 서비스환경에서
-  - @Profile  - 
+  - @Profile  -  사용할 빈들의 조합을 결정
+  - runtime에 사용할 profile 지정
+    - profile이 없는 빈들은 언제나 동작
+    - profile이 지정된 녀석들은 profile이 선언될때만 동작
